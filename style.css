@@ -14,7 +14,9 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 10vh;
   align-items: center;
   justify-content: center;
 }
@@ -41,11 +43,11 @@ body,html {
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 0rem;
 }
 
 .sound {
-  font-size: 1.2rem;
+  font-size: 0rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
@@ -62,12 +64,15 @@ kbd {
 }
 
 .frog {
-  width: 40vh;
-  height: 40vh;
-  position: relative;
-  margin: auto;
-  display: block;
-  margin-top: 10%;
+  width: 20vh;
+  height: 20vh;
+  position: relative; 
+  margin: 1rem;
+  padding: 1rem .5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px; 
 }
 .face {
   width: 100%;
@@ -77,6 +82,7 @@ kbd {
   border-radius: 50%;
   top: 0%;
   left: 0%;
+  display: flex;
 }
 .left-eye{
   width: 30%;
