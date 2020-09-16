@@ -70,9 +70,7 @@ kbd {
   margin: 1rem;
   padding: 1rem .5rem;
   align-items: center;
-  justify-content: center;
-  margin: 10px;
-  padding: 20px; 
+  justify-content: center;  
 }
 .face {
   width: 100%;
@@ -155,3 +153,50 @@ kbd {
   left: 35%;
 }
 
+#G-low .face, #G-low .lip, #G-low .right-eye, #G-low .left-eye{
+  background: #BD44CF;
+}
+
+#A-low .face, #A-low .lip, #A-low .right-eye, #A-low .left-eye{
+  background: #1586E2;
+}
+
+#B-low .face, #B-low .lip, #B-low .right-eye, #B-low .left-eye{
+  background: #02B2E1;
+}
+
+#C-low .face, #C-low .lip, #C-low .right-eye, #C-low .left-eye{
+  background: #31C797;
+}
+
+#E-low .face, #E-low .lip, #E-low .right-eye, #E-low .left-eye{
+  background:#84C700;
+}
+
+#F .face, #F .lip, #F .right-eye, #F .left-eye{
+  background: #F2D00C;
+}
+
+#G-high .face, #G-high .lip, #G-high .right-eye, #G-high .left-eye{
+  background:#F2D00C;
+}
+
+#A-high .face, #A-high .lip, #A-high .right-eye, #A-high .left-eye{
+  background:#FF7101;
+}
+
+#B-high .face, #B-high .lip, #B-high .right-eye, #B-high .left-eye{
+  background: #EB6118;
+}
+
+#C-high .face, #C-high .lip, #C-high .right-eye, #C-high .left-eye{
+  background:#CA391A;
+}
+
+#D-high .face, #D-high .lip, #D-high .right-eye, #D-high .left-eye{
+  background:#D13187;
+}
+
+#E-high .face, #E-high .lip, #E-high .right-eye, #E-high .left-eye{
+  background: #D93BAC;
+}
