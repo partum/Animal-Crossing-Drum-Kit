@@ -292,8 +292,8 @@
       audio.play();
     }
 
-    const keys = Array.from(document.querySelectorAll('.key'));
-    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+    const keys = Array.from(document.querySelectorAll('.frog'));
+    keys.forEach(frog => frog.addEventListener('transitionend', removeTransition));
     window.addEventListener('keydown', playSound);
   </script>
 

@@ -32,13 +32,11 @@ body,html {
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  text-shadow: 0 0 .5rem black; 
 }
 
 .playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  transform: scaleY(1.5);
 }
 
 kbd {
@@ -70,7 +68,8 @@ kbd {
   margin: 1rem;
   padding: 1rem .5rem;
   align-items: center;
-  justify-content: center;  
+  justify-content: center; 
+  transition: all .07s ease; 
 }
 .face {
   width: 100%;
@@ -178,7 +177,7 @@ kbd {
 }
 
 #G-high .face, #G-high .lip, #G-high .right-eye, #G-high .left-eye{
-  background:#F2D00C;
+  background: #EFA300;
 }
 
 #A-high .face, #A-high .lip, #A-high .right-eye, #A-high .left-eye{
