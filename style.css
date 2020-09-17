@@ -1,7 +1,9 @@
 html {
   font-size: 10px;
-  /*background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
-  background-size: cover;*/
+  background: url(bg-grass.png);
+  background-repeat: repeat;
+  background-size: 300px;
+  /*background-size: cover;*/
   background-color: #F0F5BF;
 }
 
@@ -41,7 +43,11 @@ body,html {
 
 kbd {
   display: block;
-  font-size: 0rem;
+  font-size: 3rem;
+  font-family: "Courier New", sans-serif;
+  position: absolute;
+  top: 75%;
+  left: 45%;
 }
 
 .sound {
@@ -100,13 +106,13 @@ kbd {
   left: 55%;
 }
 .pupil{
-  width: 40%;
-  height: 40%;
+  width: 35%;
+  height: 35%;
   background: black;
   position: absolute;
   border-radius: 50%;
   top: 25%;
-  left: 25%;
+  left: 30%;
 }
 .mouth{
   width: 80%;
@@ -145,11 +151,11 @@ kbd {
   left: 50%;
 }
 .note{
-  font-size: 400%;
+  font-size: 9vh;
   font-family: Arial;
   position: absolute;
   top: 5%;
-  left: 35%;
+  left: 30%;
 }
 
 #G-low .face, #G-low .lip, #G-low .right-eye, #G-low .left-eye{
